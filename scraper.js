@@ -2,7 +2,17 @@
    one book). We skipped the first page (see the below comment). Having the
    browser in full screen and the console "minimised" and possibly zooming in
    will may increase the quality of the captured images!
- */
+   It's also important to not that the following should be done (or else the browser will pop up a
+   save as dialog for each file (as opposed to just straight up saving them)!
+   	1. Open Firefox Settings
+	2. Go to General → Files and Applications
+	3. Under Downloads
+	4. Uncheck:
+		✅ Always ask you where to save files
+
+   Also note that if this code is entered into the console multiple times without a full page reload
+   (ctrl+shift+r) multiple event listener functions will be registered!
+*/
 
 
 /* So in all of this code we're actually assuming that there's only one of these
